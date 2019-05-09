@@ -1,7 +1,6 @@
-ventas = float (input ('Ingrese el valor del producto: '))
-if ventas>=1:
-    iva=ventas*0.16
-else:
-    iva=0
-print ('Valor del IVA: ' + repr (iva))
+venta = float (input ('Ingrese el valor del producto: '))
+IVA=venta*0.16
+precio_de_venta=venta+IVA
+print ('IVA: ' + repr (IVA))
+print ('Valor de precio del producto: ' + repr (precio_de_venta))
 print ()
