@@ -1,0 +1,6 @@
+import math
+
+radio = float (input ('Ingrese el valor de radio: '))
+area=math.pi*radio*radio
+print ('Valor de area: ' + repr (area))
+print ()
