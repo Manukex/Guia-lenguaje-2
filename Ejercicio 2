@@ -1,7 +1,7 @@
-ventas = float (input ('Ingrese el valor de ventas: '))
+ventas = float (input ('Ingrese el valor del producto: '))
 if ventas>=1:
-    comision=ventas*0.16
+    iva=ventas*0.16
 else:
-    comision=0
-print ('Valor de comision: ' + repr (comision))
+    iva=0
+print ('Valor del IVA: ' + repr (iva))
 print ()
