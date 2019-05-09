@@ -1,0 +1,7 @@
+ventas = float (input ('Ingrese el valor de ventas: '))
+if ventas>=1:
+    comision=ventas*0.16
+else:
+    comision=0
+print ('Valor de comision: ' + repr (comision))
+print ()
